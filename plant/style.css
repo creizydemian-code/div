@@ -1,0 +1,45 @@
+ 
+
+/* VARIABLES DE COLOR */ :root { --color-principal: #8B0000; --color-secundario: #f5f5f5; --color-texto: #333; } 
+
+/* RESET */ 
+
+{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; } 
+
+/* CABECERA */ header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: var(--color-principal); color: white; } 
+
+.logo { font-size: 1.5em; font-weight: bold; } 
+
+nav a { color: white; text-decoration: none; margin: 0 15px; transition: 0.3s; } 
+
+nav a:hover, nav a.active { text-decoration: underline; color: var(--color-secundario); } 
+
+/* SECCIÓN PRINCIPAL */ main { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 60px 20px; background-color: var(--color-secundario); } 
+
+main h1 { font-size: 2.5em; margin-bottom: 20px; color: var(--color-principal); } 
+
+main p { max-width: 600px; color: var(--color-texto); margin-bottom: 20px; } 
+
+.imagen-destacada { border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); } 
+
+/* TARJETAS */ .cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px; background: white; } 
+
+.card { background: var(--color-secundario); border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 250px; text-align: center; padding: 20px; transition: 0.3s; } 
+
+.card:hover { transform: translateY(-5px); } 
+
+.card img { width: 100%; border-radius: 10px; margin-bottom: 10px; } 
+
+/* FORMULARIO */ form { display: flex; flex-direction: column; gap: 10px; width: 300px; } 
+
+input, textarea, button { padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1em; } 
+
+button { background-color: var(--color-principal); color: white; border: none; cursor: pointer; transition: 0.3s; } 
+
+button:hover { background-color: #a52a2a; } 
+
+/* PIE DE PÁGINA */ footer { display: flex; justify-content: space-around; align-items: center; background-color: var(--color-principal); color: white; padding: 20px; } 
+
+footer a { color: white; text-decoration: none; margin: 0 10px; } 
+
+footer a:hover { text-decoration: underline; } 
